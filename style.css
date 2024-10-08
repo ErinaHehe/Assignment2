@@ -4,7 +4,7 @@ header {
     align-items: center;
 }
 
-.logo h1 {
+.logo h1{
     color: #008CBA;
     font-size: 30px;
 }
@@ -18,4 +18,26 @@ header {
 .sign-button button:hover {
     background-color: #008CBA;
     color: white;
+}
+
+.hero-text {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.main-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+}
+
+.price-text {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
 }
