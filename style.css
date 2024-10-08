@@ -1,0 +1,21 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo h1 {
+    color: #008CBA;
+    font-size: 30px;
+}
+
+.sign-button button {
+    background-color: white;
+    color: black;
+    border: 2px solid #008CBA;
+}
+
+.sign-button button:hover {
+    background-color: #008CBA;
+    color: white;
+}
