@@ -4,6 +4,19 @@ header {
     align-items: center;
 }
 
+.bars {
+    display: flex;
+}
+
+.bar {
+    background-color: #0f1f2b;
+    width: 1500px;
+}
+
+.top-bar {
+    min-height: 100px;
+}
+
 .logo h1{
     color: #008CBA;
     font-size: 30px;
