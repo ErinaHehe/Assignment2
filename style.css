@@ -1,28 +1,23 @@
+body {
+    background-color: #050b14;
+}
+
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.bars {
-    display: flex;
-}
-
-.bar {
-    background-color: #0f1f2b;
-    width: 1500px;
-}
-
-.top-bar {
-    min-height: 100px;
-}
-
-.logo h1{
+.logo {
+    position: absolute;
     color: #008CBA;
+    top: 8px;
+    left: 16px;
     font-size: 30px;
 }
 
 .sign-button button {
+    justify-content: flex-end;
     background-color: white;
     color: black;
     border: 2px solid #008CBA;
@@ -34,8 +29,10 @@ header {
 }
 
 .hero-text {
+    display: flex;
     position: relative;
     text-align: center;
+    justify-content: center;
     color: white;
 }
 
