@@ -8,14 +8,6 @@ header {
     align-items: center;
 }
 
-.logo {
-    position: absolute;
-    color: #008CBA;
-    top: 8px;
-    left: 16px;
-    font-size: 30px;
-}
-
 .sign-button button {
     justify-content: flex-end;
     background-color: white;
@@ -36,8 +28,18 @@ header {
     color: white;
 }
 
+.logo {
+    position: absolute;
+    color: #008CBA;
+    font-family: 'Righteous', sans-serif;
+    top: 8px;
+    left: 16px;
+    font-size: 30px;
+}
+
 .main-text {
     position: absolute;
+    font-family: 'Righteous', sans-serif;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -46,8 +48,27 @@ header {
 
 .price-text {
     position: absolute;
+    font-family: 'Righteous', sans-serif;
     top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 20px;
+}
+
+.movie {
+    display: flex;
+    justify-content: center; 
+}
+
+.movies img {
+    width: 200px; 
+    max-height: 300px;
+    height: auto; 
+    object-fit: cover; 
+    margin: 10px;
+}
+
+.p {
+    color: white;
+    font-family: 'Righteous', sans-serif;
 }
