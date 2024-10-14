@@ -58,6 +58,8 @@ header {
 .movie {
     display: flex;
     justify-content: center; 
+    align-items: center;
+
 }
 
 .movies img {
@@ -68,7 +70,15 @@ header {
     margin: 10px;
 }
 
-.p {
-    color: white;
+.footer-section {
+    color: #008CBA;
     font-family: 'Righteous', sans-serif;
+}
+
+.a:link {
+    color: #008CBA;
+}
+
+.footer-section .a:visited {
+    color: #c5d2eb;
 }
