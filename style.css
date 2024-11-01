@@ -105,11 +105,11 @@ footer {
 
 .footer-section p {
     margin: 5px 0;
-    color: white;
+    color: rgb(222, 222, 222);
 }
 
 .phone-number, footer a {
-    color: white;
+    color: rgb(222, 222, 222);
     text-decoration: underline;
 }
 
